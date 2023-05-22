@@ -1,0 +1,23 @@
+.navbar{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-around;
+    background-color:  #3d4477;
+    padding: .5em;
+    box-shadow: 0 8px 16px 0 #fffafa, 0 6px 20px 0 #fffafa;
+}
+
+
+.navbar a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Scheherazade New', serif;font-family: 'Scheherazade New', serif;
+}
+
+/*Media Screen for Navbar*/
+@media only screen and (min-width: 400px) {
+    .navbar{
+    display: flex;
+    flex-wrap: wrap;
+    }
+}
